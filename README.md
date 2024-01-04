@@ -15,8 +15,11 @@ modern_RAPTOR_by_player_2022.csv
 # Process
 - Joined tables and cleaned null values in MySQL --> Cleaning_raptor_with_positions.sql
 
-# Analyze
+# Analyze 1
 - Ran SQL queries in raptor_with_positions data to determine if centers are valuable in the NBA --> Analyzing_RAPTOR_and_WAR_data.sql
-- I used two metrics to measure value; RAPTOR and WAR. RAPTOR is a metric created by FiveThirtyEight to measure a player's impact on both offense and defense. WAR stands for 'Wins Above Replacement,' which means it measures how many wins the player would add to a team.
-  ### Findings
-  - Centers have a higher average WAR and RAPTOR than guards and forwards. This suggests that centers are just as valuable or more valuable than other positions in the NBA. 
+- I used two metrics to measure value; RAPTOR and WAR. RAPTOR is a metric created by FiveThirtyEight to measure a player's impact on both offense and defense. WAR stands for 'Wins Above Replacement,' which measures how many wins the player would add to a team.
+### Findings
+  - Centers have a higher average WAR and RAPTOR than guards and forwards. This suggests that centers are just as valuable or more valuable than other positions in the NBA. This is true even when you remove the two best centers in the league in terms of these metrics.
+
+# Analyze 2
+- Ran SQL queries in a new table centers_raptor_and_draft_data to investigate how early a center should be drafted --> Working_with_RAPTOR_Draft_Positions.sql
