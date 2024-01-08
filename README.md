@@ -29,6 +29,19 @@ Analyzing where centers should be drafted in the NBA draft to maximize value.
 - Higher picks may have slightly better value, but there is not a tremendous drop off in the second half of the first round picks.
 
 # Visual
-
+- RAPTOR_and_WAR_by_Draft_Position_viz.png
+- Peak at 41 is due to Nikola Jokic, who won MVP in the 2022-23 season
+### RAPTOR
+- RAPTOR from picks 9-15 are all positive, suggesting valuable centers can be chosen in that range.
+- Picks 22-28 are also positive.
+- Of the top 3 picks the number 3 overall pick seems to have the best value for centers.
+### WAR
+- Similar curve to RAPTOR.
+- Worst value in the top 15 picks appears to be from 4-8
 
 # Conclusion
+- Centers do play a valuable role in winning games in the NBA.
+- Centers drafted in the top 15 picks tend to be better than later picks, but picks 15-30 can still be valuable players.
+- In the top 15 picks, the ideal places to pick centers appear to be top 3 or 12-14.
+- Drafting a center in the top 15 picks can be risky, which is why waiting till the late first round is often the best option for NBA teams.
+- There will always be hidden gems in the second round, like Nikola Jokic as the 41st pick.
