@@ -23,3 +23,13 @@ modern_RAPTOR_by_player_2022.csv
 
 # Analyze 2
 - Ran SQL queries in a new table centers_raptor_and_draft_data.csv to investigate how early a center should be drafted --> Working_with_RAPTOR_Draft_Positions.sql
+### Findings
+- Picks in the second round of the draft (30-60) have a lower average RAPTOR and WAR than the first round picks, as expected.
+- The average RAPTOR for picks 1-15 is less than the average RAPTOR for picks 16-30 by about 0.1. The average WAR for picks 1-15 is greater than the average WAR for picks 16-30 by about 0.9.
+- There is not a large gap for RAPTOR between picks 1-15 and 16-30. There is a larger gap for average WAR between picks 1-15 and 16-30.
+- Higher picks may have slightly better value, but there is not a tremendous drop off in the second half of the first round picks.
+
+# Visual
+
+
+# Conclusion
